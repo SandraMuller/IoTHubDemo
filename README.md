@@ -5,7 +5,7 @@
 
 <p>I am also doing this through Visual Studio as I am a .Net developer. I'm finding the Arduino IDE, Azure NuGet Packages, and the ease of having it all in one solution great!</p>
 
-<p>The points below will correspond to projects in my solution. I started off with <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-getstarted">"Get Started with IoT Hub for .Net"</a> and then incorporated <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-c2d">"How to send cloud-to-device messages with IoT Hub and .Net"</a>. I have also played around with switching from AMQP to HTTP. I found it easy to change transport type for sending messages, but retrieving has been difficult (I was working on a network that didn't support AMQP, but it's fine on other networks).</p>
+<p>The points below will correspond to projects in my solution, so you can see the code used to run these applications. I started off with <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-getstarted">"Get Started with IoT Hub for .Net"</a> and then incorporated <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-c2d">"How to send cloud-to-device messages with IoT Hub and .Net"</a>. I have also played around with switching from AMQP to HTTP. I found it easy to change transport type for sending messages, but retrieving has been difficult (I was working on a network that didn't support AMQP, but it's fine on other networks).</p>
 
 <h3>1. Create Device Identity with IoTHub:</h3>
 <p align="center">
@@ -18,3 +18,9 @@
   <img src="https://github.com/SandraMuller/IoTHubDemo/blob/master/ScreenShot/ReadMessages.png"/>
 </p>
 <p>Above is a screen shot of my console app reading the messages from my IoT Hub that were sent from my simulated device. There is a lot more to be learnt around this with regards to how to process device-to-cloud messages at scale, but for the purpose of this project, this simple app is sufficient.</p>
+
+<h3>3. Send Cloud to Device Message:</h3>
+<p align="center">
+  <img src="https://github.com/SandraMuller/IoTHubDemo/blob/master/ScreenShot/SendMessageToDevice.png"/>
+</p>
+<p>I really like this app as it demonstrates sending a message from an application to the IoT Hub and, when you see point 4, that the message is received by my device (cloud-to-device message). It is also able to log a response, which is the "Received feedback: Success" so that you can check that your message has been received.</p>
