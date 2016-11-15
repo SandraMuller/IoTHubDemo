@@ -31,8 +31,8 @@
 <p align="center">
   <img src="https://github.com/SandraMuller/IoTHubDemo/blob/master/ScreenShot/SimulatedDeviceSendRecieveMessage.png"/>
 </p>
-<p>You can see the JSON objects being sent here and then on read device-to-cloud messages (point 2), that those objects have been received by the IoT Hub. I have enabled cloud-to-device messaging on my device as well. The yellow line is the message I sent in point 3 (cloud-to-device). This completes thhe full circle of being able to send/receive messages to a device, read those messages and use another application to send a message to the device.</p>
+<p>You can see the JSON objects being sent here and then on read device-to-cloud messages (point 2), that those objects have been received by the IoT Hub. I have enabled cloud-to-device messaging on my device as well. The yellow line is the message I sent in point 3 (cloud-to-device). This completes thhe full circle of being able to send/receive messages to a device, read those messages and use another application to send a message to the device.</p></br>
 
-<p>Where to from here? Adding a real device :)</p>
+<p><strong>Where to from here? Adding a real device :)</strong></p>
 
 <p>See <a href="https://github.com/SandraMuller/FlashingLights">"Flashing Lights"</a> for a project that uses Arduino IDE in Visual Studio and a console app that connects to that device via serial port to communicate user inputs to the device. The app also receives information from the device. I have the projects added to a solution called BlinkLed for development ease, but the actual projects are in the app folder.</p>
