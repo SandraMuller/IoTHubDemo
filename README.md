@@ -5,7 +5,7 @@ Simmulated Device for IoTHub Read/Write Messages Demo
 
 <p>I am also doing this through Visual Studio as I am a .Net developer. I'm finding the Arduino IDE, NuGet Packages, and the ease of having it all in one solution great!</p>
 
-<p>The points below will correspond to projects in my solution. I started off with <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-getstarted">"Get Started with IoT Hub for .Net"</a> and then incorporated<a href="(https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-c2d">"How to send cloud-to-device messages with IoT Hub and .Net"</a>. I have also played around with switching from AMQP Protocol to HTTP Protocol. I found it easy to change transport type for sending messages, but retrieving has been difficult (I was working on a network that didn't support AMQP, but it's fine on other networks).</p>
+<p>The points below will correspond to projects in my solution. I started off with <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-getstarted">"Get Started with IoT Hub for .Net"</a> and then incorporated <a href="https://azure.microsoft.com/en-us/documentation/articles/iot-hub-csharp-csharp-c2d">"How to send cloud-to-device messages with IoT Hub and .Net"</a>. I have also played around with switching from AMQP Protocol to HTTP Protocol. I found it easy to change transport type for sending messages, but retrieving has been difficult (I was working on a network that didn't support AMQP, but it's fine on other networks).</p>
 
 <h3>1. Create Device Identity with IoTHub:</h3>
 <p align="center">
