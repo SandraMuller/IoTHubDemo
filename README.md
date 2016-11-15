@@ -35,4 +35,4 @@
 
 <p>Where to from here? Adding a real device :)</p>
 
-<p>See <a href="https://github.com/SandraMuller/FlashingLights">"Flashing Lights"</a> for a project that uses Arduino IDE in Visual Studio and a console app that connects to that device via serial port to communicate user inputs to the device. The app also receives information from the device. I have the projects added to a solution called BlinkLed for development ease, but the actual projects are in the app folder.
+<p>See <a href="https://github.com/SandraMuller/FlashingLights">"Flashing Lights"</a> for a project that uses Arduino IDE in Visual Studio and a console app that connects to that device via serial port to communicate user inputs to the device. The app also receives information from the device. I have the projects added to a solution called BlinkLed for development ease, but the actual projects are in the app folder.</p>
