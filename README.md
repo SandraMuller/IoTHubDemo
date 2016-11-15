@@ -27,7 +27,7 @@
 </p>
 <p>I really like this app as it demonstrates sending a message from an application to the IoT Hub and, when you see point 4, that the message is received by my device (cloud-to-device message). It is also able to log a response, which is the "Received feedback: Success" so that you can check that your messages have been received.</p>
 
-<h3>4. Simulated Device<h3>
+<h3>4. Simulated Device</h3>
 <p align="center">
   <img src="https://github.com/SandraMuller/IoTHubDemo/blob/master/ScreenShot/SimulatedDeviceSendRecieveMessage.png"/>
 </p>
