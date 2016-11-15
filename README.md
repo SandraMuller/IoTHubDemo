@@ -13,3 +13,8 @@
 </p>
 <p>This is part of the dashboard on Azures portal. You can see I have 1 Device registred with my IoT Hub - IoTDemoSMuller. The app I wrote is used to create a device identity in the hub's identity registry and returns a key that you will need to use to identify your device when communicating with the hub.</p>
 
+<h3>2. Read Device to Cloud Messages:</h3>
+<p align="center">
+  <img src="https://github.com/SandraMuller/IoTHubDemo/blob/master/ScreenShot/ReadMessages.png"/>
+</p>
+<p>Above is a screen shot of my console app reading the messages from my IoT Hub that were sent from my simulated device. There is a lot more to be learnt around this with regards to how to process device-to-cloud messages at scale, but for the purpose of this project, this simple app is sufficient.</p>
